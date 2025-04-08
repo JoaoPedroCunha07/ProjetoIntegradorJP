@@ -1,0 +1,136 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Yusei+Magic&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-size: 62.5%;
+}
+
+#centro{
+    height: 80vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+}
+
+header{
+    position: relative;
+}
+
+.icon {
+    position: absolute;
+    right: 0rem;
+    display: inline-block;
+    font-family: "Inter", sans-serif;
+}
+
+.icon i{
+    font-size: 3.2rem;
+}
+
+.icon .tooltiptext {
+    visibility: hidden;
+    font-size: 1.4rem;
+    text-align: center;
+    background-color: white;
+    color: black;
+    border: 1px solid black;
+    padding: 0.8rem;
+    border-radius: 2rem;
+    position: absolute;
+    top: 3.8rem;
+    right: -4rem;
+    transition-duration: 0.3s;
+}
+
+.icon b{
+    font-size: 1.4rem;
+}
+
+.icon:hover .tooltiptext {
+    visibility: visible;
+
+}
+
+#corpo{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1.2rem;
+    position: relative;
+}
+
+.logo{
+    margin-top: 3rem;
+    font-family: "Yusei Magic", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 13.5rem;
+}
+
+.login{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: 4.5rem;
+    gap: 4.5rem;
+}
+
+.frase{
+    font-family: "Roboto", sans-serif;
+    font-size: 3.5rem;
+    margin-bottom: 0.8rem;
+}
+
+.inputs{
+    font-family: "Inter", sans-serif;
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
+
+.inputs input{
+    padding: 1.5rem 2.5rem 1.5rem 2.5rem; 
+    border-radius: 5rem;
+    font-weight: 250;
+    width: 65rem;
+    border: 1px solid #a8a8a8;
+}
+
+.inputs input:focus{
+    outline: none;
+}
+
+.enviar a{
+    font-family: "Inter", sans-serif;
+    color: white;
+    background-color: #113AF5 ;
+    text-decoration: none;
+    padding: 1.5rem 10rem;
+    border-radius: 5rem;
+    font-weight: 300;
+}
+
+.enviar:active{
+    opacity: 0.9;
+    transition-duration: 0.15s;
+}
+
+.acesso{
+    font-family: "Inter", sans-serif;
+    font-size: 4.3rem;
+}
+
+.acesso a{
+    color: black;
+}
+
+.acesso:active{
+    opacity: 0.8;
+    transition-duration: 0.15s;
+}

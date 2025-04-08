@@ -1,0 +1,49 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Yusei+Magic&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-size: 62.5%;
+}
+
+.logo{
+    font-family: "Yusei Magic", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 10rem;
+}
+
+.icone{
+    border-radius: 50%;
+    padding: 1rem;
+    display: inline-block;
+}
+
+.icone img{
+    width: 10rem;
+}
+
+.moda .icone{
+    background-color: #C980F0;
+}
+
+.sustentabilidade .icone{
+    background-color: #93C572;
+}
+
+.esporte .icone{
+    background-color: #FF8B1D;
+}
+
+.tendencias .icone{
+    background-color: #A32E39;
+}
+
+.tendencias .icone img{
+    padding: 1rem;
+    width: 10rem;
+}
